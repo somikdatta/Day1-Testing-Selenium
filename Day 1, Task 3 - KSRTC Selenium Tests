@@ -1,0 +1,926 @@
+{
+  "id": "8623d42a-b4f8-4aed-9fff-483df5c2b557",
+  "version": "2.0",
+  "name": "KSRTC",
+  "url": "https://ksrtc.in",
+  "tests": [{
+    "id": "546e7e9e-1462-4669-9a13-adeca0af4a68",
+    "name": "Booking - Assert Route",
+    "commands": [{
+      "id": "af79cc08-0ef2-4795-a74a-52ff4f8dab26",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/guest/home.do",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b323ab2-7dd1-4349-834a-a74afa1e177b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d41f19b-58fe-416e-bbf7-27c2cc4bfa1c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ballari - Bengaluru",
+      "targets": [
+        ["linkText=Ballari - Bengaluru", "linkText"],
+        ["css=.active li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[@onclick=\"populateSearch('1467468693065', 'Ballari', '1467467616730', 'Bengaluru');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='routeSlider']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ballari - Bengaluru')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "007c4a64-cf98-4808-bb85-9f5227d1941c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=26",
+      "targets": [
+        ["linkText=26", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=(//a[contains(text(),'26')])[2]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3cf1f66-5c46-4c58-a1a7-a03bb4efdd0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtReturnJourneyDate",
+      "targets": [
+        ["id=txtReturnJourneyDate", "id"],
+        ["name=txtReturnJourneyDate", "name"],
+        ["css=#txtReturnJourneyDate", "css:finder"],
+        ["xpath=//input[@id='txtReturnJourneyDate']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e8f265-91f9-467a-8207-f2ff5fca666b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=27",
+      "targets": [
+        ["linkText=27", "linkText"],
+        ["css=.ui-state-hover", "css:finder"],
+        ["xpath=//a[contains(text(),'27')]", "xpath:link"],
+        ["xpath=//div[@id='ui-datepicker-div']/table/tbody/tr[5]/td[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[31]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'27')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "123a92fe-6fbd-4dd8-aed4-c3ab4d933bb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search for Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e29c48aa-5b5e-413d-8fc7-f90b82d1289f",
+      "comment": "",
+      "command": "click",
+      "target": "id=fwInfoLeftId",
+      "targets": [
+        ["id=fwInfoLeftId", "id"],
+        ["css=#fwInfoLeftId", "css:finder"],
+        ["xpath=//div[@id='fwInfoLeftId']", "xpath:attributes"],
+        ["xpath=//div[@id='modify-search-container']/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfa7b2c4-c4cb-4371-8651-9692339d1344",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#fwInfoLeftId > h2",
+      "targets": [
+        ["css=#fwInfoLeftId > h2", "css:finder"],
+        ["xpath=//div[@id='fwInfoLeftId']/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'BALLARI→ BENGALURU')]", "xpath:innerText"]
+      ],
+      "value": "BALLARI→ BENGALURU"
+    }, {
+      "id": "8f278537-b7ff-4a32-99d1-fd83b6db5b48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.two-way-search",
+      "targets": [
+        ["css=.two-way-search", "css:finder"],
+        ["xpath=//div[@id='retInfoLeftId']/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aad22b7-34b5-441e-94cc-958dac136f45",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.two-way-search > h2",
+      "targets": [
+        ["css=.two-way-search > h2", "css:finder"],
+        ["xpath=//div[@id='retInfoLeftId']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'BENGALURU→ BALLARI')]", "xpath:innerText"]
+      ],
+      "value": "BENGALURU→ BALLARI"
+    }]
+  }, {
+    "id": "ed0c7550-f21d-403a-a6b1-4bd25b095f20",
+    "name": "PNR enquiry Failure",
+    "commands": [{
+      "id": "a03f9b6f-bf47-4fc7-a7f1-0877db4335c4",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b222c5b2-95ce-4c86-9c26-9ba288790c61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e11bcc93-cfcd-4e75-88b2-61e51e1d8afb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PNR Enquiry",
+      "targets": [
+        ["linkText=PNR Enquiry", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'PNR Enquiry')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/ticket/waitlist.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PNR Enquiry')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b47de22-9a6b-4a4e-9c9d-9e219f8e0c1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-inline:nth-child(2) > .form-label-group:nth-child(3) > label",
+      "targets": [
+        ["css=.form-inline:nth-child(2) > .form-label-group:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "965de66e-8fb6-4a0d-82d8-cd29b9244013",
+      "comment": "",
+      "command": "click",
+      "target": "id=pnrPrefixWithTktNo",
+      "targets": [
+        ["id=pnrPrefixWithTktNo", "id"],
+        ["name=pnrPrefixWithTktNo", "name"],
+        ["css=#pnrPrefixWithTktNo", "css:finder"],
+        ["xpath=//input[@id='pnrPrefixWithTktNo']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2dc78b1-7f42-4bfe-b813-696437968031",
+      "comment": "",
+      "command": "type",
+      "target": "id=pnrPrefixWithTktNo",
+      "targets": [
+        ["id=pnrPrefixWithTktNo", "id"],
+        ["name=pnrPrefixWithTktNo", "name"],
+        ["css=#pnrPrefixWithTktNo", "css:finder"],
+        ["xpath=//input[@id='pnrPrefixWithTktNo']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123458999999"
+    }, {
+      "id": "733e1b2b-001c-432e-936c-482e81338b1f",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "id=pnrPrefixWithTktNo",
+      "targets": [
+        ["id=pnrPrefixWithTktNo", "id"],
+        ["name=pnrPrefixWithTktNo", "name"],
+        ["css=#pnrPrefixWithTktNo", "css:finder"],
+        ["xpath=//input[@id='pnrPrefixWithTktNo']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123458999999"
+    }, {
+      "id": "b40a3ce6-7f50-46dd-96af-d143d2a17835",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(5) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(5) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87fa82c2-bf03-4fa3-a742-c6d2cc8128d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(5) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(5) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c4865c-3e5d-4f39-8ef6-c01ec09120ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobileNo",
+      "targets": [
+        ["id=mobileNo", "id"],
+        ["name=mobileNo", "name"],
+        ["css=#mobileNo", "css:finder"],
+        ["xpath=//input[@id='mobileNo']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "9876543210"
+    }, {
+      "id": "065a9cc6-77cb-4266-ae16-0eaac54a2c32",
+      "comment": "",
+      "command": "click",
+      "target": "id=home",
+      "targets": [
+        ["id=home", "id"],
+        ["css=#home", "css:finder"],
+        ["xpath=//div[@id='home']", "xpath:attributes"],
+        ["xpath=//div[@id='myTabContent']/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b41656fe-27bf-4ad0-bd12-5bab1b164562",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchBtn",
+      "targets": [
+        ["id=searchBtn", "id"],
+        ["name=searchBtn", "name"],
+        ["css=.form-inline:nth-child(2) > #searchBtn", "css:finder"],
+        ["xpath=//input[@id='searchBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded3a30e-6ce4-4122-bf49-145037d0fe0f",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=//section/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06cf436c-b577-4d3b-be64-d49b3b6eb692",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#errorMsg > strong",
+      "targets": [
+        ["css=#errorMsg > strong", "css:finder"],
+        ["xpath=//div[@id='errorMsg']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Please enter valid PNR and Prefix.\n')]", "xpath:innerText"]
+      ],
+      "value": "10000"
+    }, {
+      "id": "dac3a4f0-e402-485a-b802-2d382cf7b4b5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#errorMsg > strong",
+      "targets": [
+        ["css=#errorMsg > strong", "css:finder"],
+        ["xpath=//div[@id='errorMsg']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Please enter valid PNR and Prefix.\n')]", "xpath:innerText"]
+      ],
+      "value": "Please enter valid PNR and Prefix."
+    }]
+  }, {
+    "id": "fca15fcf-be95-4bd8-8197-bdd4548601d3",
+    "name": "Booking Cancellation Failure",
+    "commands": [{
+      "id": "e5502a5c-d3d6-40f1-8ae9-a5c929abdfa7",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ecb8394-085d-4caa-8b9e-108d7a73bab8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5db6f19-1972-4980-88e6-4551a32eb9be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cancel Tickets",
+      "targets": [
+        ["linkText=Cancel Tickets", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Cancel Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/oprs-web/guest/ticket/cancel.do')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cancel Tickets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21b0eea6-c439-4621-bc16-9d7e88db7036",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(3) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ac80b1b-ec67-4870-865b-2b9500e9bb6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=pnrPrefixWithTktNo",
+      "targets": [
+        ["id=pnrPrefixWithTktNo", "id"],
+        ["name=pnrPrefixWithTktNo", "name"],
+        ["css=#pnrPrefixWithTktNo", "css:finder"],
+        ["xpath=//input[@id='pnrPrefixWithTktNo']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "789456123"
+    }, {
+      "id": "a0a5990d-4ebf-4654-b57e-3446f10df839",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(5) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(5) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e34d5018-c855-4868-8a12-19022ba0eb88",
+      "comment": "",
+      "command": "type",
+      "target": "id=uidNumber",
+      "targets": [
+        ["id=uidNumber", "id"],
+        ["name=uidNumber", "name"],
+        ["css=#uidNumber", "css:finder"],
+        ["xpath=//input[@id='uidNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "78958544"
+    }, {
+      "id": "2970767d-8c42-4fb5-b805-026b3a9c3ab7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(7) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(7) > label", "css:finder"],
+        ["xpath=//div[@id='home']/div/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d63f438-2cc9-40ea-a0dd-a23b4f1da0ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobileNo",
+      "targets": [
+        ["id=mobileNo", "id"],
+        ["name=mobileNo", "name"],
+        ["css=#mobileNo", "css:finder"],
+        ["xpath=//input[@id='mobileNo']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "9876543210"
+    }, {
+      "id": "7e760a51-6c62-4d1e-a36e-ce8d356a7612",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchBtn",
+      "targets": [
+        ["id=searchBtn", "id"],
+        ["name=searchBtn", "name"],
+        ["css=#searchBtn", "css:finder"],
+        ["xpath=//input[@id='searchBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='home']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "101cc1ef-87b6-4f3b-ad40-8d4958384360",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=(//div[@id='BookedTicketsDivId']/div)[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7165a556-6b49-440e-a2b8-b3af7f8da730",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row:nth-child(2) > .form-group:nth-child(1)",
+      "targets": [
+        ["css=.form-row:nth-child(2) > .form-group:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76c469ae-7f21-47c2-b2a4-00075a3e1d5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=(//div[@id='BookedTicketsDivId']/div)[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eae5730-ef7d-449c-8620-176c0ce6e1c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row:nth-child(4) > .form-group:nth-child(2)",
+      "targets": [
+        ["css=.form-row:nth-child(4) > .form-group:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]/div[4]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48353220-470e-4887-9acf-604af7fc7cf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.align-items-center",
+      "targets": [
+        ["css=.align-items-center", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88db2188-57db-47f1-82e5-7f3ef7175638",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.form-row:nth-child(2) > .form-group:nth-child(1)",
+      "targets": [
+        ["css=.form-row:nth-child(2) > .form-group:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": "PNR No. 789456123"
+    }, {
+      "id": "1f936800-4c1e-4932-8043-dc6c7bdc92ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row:nth-child(2) > .form-group:nth-child(1)",
+      "targets": [
+        ["css=.form-row:nth-child(2) > .form-group:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7c42216-c052-4fb5-979e-ea62297f5bfd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row:nth-child(2) label",
+      "targets": [
+        ["css=.form-row:nth-child(2) label", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7254135-ab4a-46c9-87fb-a5e034433b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row:nth-child(2) > .form-group:nth-child(1)",
+      "targets": [
+        ["css=.form-row:nth-child(2) > .form-group:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76b096c1-c5af-4f22-a767-d477a9a5c23e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.form-row:nth-child(2) > .form-group:nth-child(1)",
+      "targets": [
+        ["css=.form-row:nth-child(2) > .form-group:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e322b1d-7059-4a0c-b182-3c51dd7c8c3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=(//div[@id='BookedTicketsDivId']/div)[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "281d19d1-8fb1-4851-84e5-84ee75c217e2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#errorMsg > strong",
+      "targets": [
+        ["css=#errorMsg > strong", "css:finder"],
+        ["xpath=//div[@id='errorMsg']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Please Enter valid PNR No. /Txn Password/Mobile No.\n')]", "xpath:innerText"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "af7c5e75-b36b-4bd1-a3b2-df666c248093",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#errorMsg > strong",
+      "targets": [
+        ["css=#errorMsg > strong", "css:finder"],
+        ["xpath=//div[@id='errorMsg']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Please Enter valid PNR No. /Txn Password/Mobile No.\n')]", "xpath:innerText"]
+      ],
+      "value": "Please Enter valid PNR No. /Txn Password/Mobile No."
+    }, {
+      "id": "08237dfe-4ac8-4067-86c9-211723876bc9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.form-row:nth-child(2) > .form-group:nth-child(1)",
+      "targets": [
+        ["css=.form-row:nth-child(2) > .form-group:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='BookedTicketsDivId']/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": "PNR No. 789456123"
+    }]
+  }, {
+    "id": "b1053a09-e4e1-4b01-bd50-b7b85b764c04",
+    "name": "Hire A bus Fare Assertion",
+    "commands": [{
+      "id": "7e373fa1-3023-4636-a864-cf782d27c9eb",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b2d01f6-b0e4-4e0d-aa93-9360c69797ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec289334-7002-4adc-92c0-2d05f82825fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Book a Bus",
+      "targets": [
+        ["linkText=Book a Bus", "linkText"],
+        ["css=.col-md-4 li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Book a Bus')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/pages/casual-contract.html')]", "xpath:href"],
+        ["xpath=//section/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Book a Bus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd8a8853-e688-4bfb-aaa9-1cf52c05a445",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1:nth-child(3)",
+      "targets": [
+        ["css=h1:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='content']/h1[3]", "xpath:idRelative"],
+        ["xpath=//h1[3]", "xpath:position"],
+        ["xpath=//h1[contains(.,'Casual Contract (Hire a Bus)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8cc5f10-3fbb-4541-9d9b-440eab366d9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mid-menu-bg",
+      "targets": [
+        ["css=.mid-menu-bg", "css:finder"],
+        ["xpath=//section[@id='services']/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec03e43-eda1-4794-a88a-2ec97056c70e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2:nth-child(5)",
+      "targets": [
+        ["css=h2:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='content']/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'CASUAL CONTRACT RATE DETAILS w.e.f. 06-01-2021')]", "xpath:innerText"]
+      ],
+      "value": "CASUAL CONTRACT RATE DETAILS w.e.f. 06-01-2021"
+    }, {
+      "id": "1a851859-1fbd-4884-b964-3b64b586b911",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(20) > td:nth-child(3) span:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(20) > td:nth-child(3) span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/table/tbody/tr[20]/td[3]/div/span", "xpath:idRelative"],
+        ["xpath=//tr[20]/td[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e5bfcb0-3e05-42df-aaf7-eba8d1684f40",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(20) > td:nth-child(3) span:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(20) > td:nth-child(3) span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/table/tbody/tr[20]/td[3]/div/span", "xpath:idRelative"],
+        ["xpath=//tr[20]/td[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2fcf07f-54d9-4e5f-b3e0-9479525a39d1",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=tr:nth-child(20) > td:nth-child(3) span:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(20) > td:nth-child(3) span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/table/tbody/tr[20]/td[3]/div/span", "xpath:idRelative"],
+        ["xpath=//tr[20]/td[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ff7b17e-baae-4cc3-a9e7-fba46c726c90",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tr:nth-child(20) > td:nth-child(3) span:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(20) > td:nth-child(3) span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/table/tbody/tr[20]/td[3]/div/span", "xpath:idRelative"],
+        ["xpath=//tr[20]/td[3]/div/span", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "fcb0c66b-f73a-4e6b-bf34-54ff88919b07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.table:nth-child(14) tr:nth-child(2) > td:nth-child(1)",
+      "targets": [
+        ["css=.table:nth-child(14) tr:nth-child(2) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/table[2]/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Karnataka Sarige / Semi Low-floor (city service) / City bus (12 meter chasis)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "915aa49a-e60c-42c4-80d9-70662e475e16",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.table:nth-child(14) tr:nth-child(2) > td:nth-child(1)",
+      "targets": [
+        ["css=.table:nth-child(14) tr:nth-child(2) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content']/table[2]/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[2]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Karnataka Sarige / Semi Low-floor (city service) / City bus (12 meter chasis)')]", "xpath:innerText"]
+      ],
+      "value": "Karnataka Sarige / Semi Low-floor (city service) / City bus (12 meter chasis)"
+    }, {
+      "id": "4f6d7761-3df1-4ca2-9464-b8dac25038c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.table:nth-child(14) tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=.table:nth-child(14) tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/table[2]/tbody/tr[2]/td[2]", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[2]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'37/-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8184bda-4168-440c-977b-e975d5e836a7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.table:nth-child(14) tr:nth-child(2) > td:nth-child(2)",
+      "targets": [
+        ["css=.table:nth-child(14) tr:nth-child(2) > td:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='content']/table[2]/tbody/tr[2]/td[2]", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[2]/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'37/-')]", "xpath:innerText"]
+      ],
+      "value": "37/-"
+    }]
+  }, {
+    "id": "026351bb-5055-4003-a8cd-0a5e746da8ab",
+    "name": "Login failure",
+    "commands": [{
+      "id": "1b7a7d08-028d-47c3-81a7-344fad698f89",
+      "comment": "",
+      "command": "open",
+      "target": "/oprs-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8728f741-be48-4a25-a8a6-70031aa7e1af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dee0721c-1b77-4cdc-8072-b13f277d1658",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.fl-right > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/oprs-web/login/show.do')]", "xpath:href"],
+        ["xpath=//div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46865163-75c5-4d15-80a7-68a7c4920b63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-label-group:nth-child(2) > label",
+      "targets": [
+        ["css=.form-label-group:nth-child(2) > label", "css:finder"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'User Name')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e458ac94-f07a-4724-8ab0-807754f33936",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["name=userName", "name"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "damsontech"
+    }, {
+      "id": "d1cbed85-4dd0-4d66-b848-1f3a48174af8",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "password"
+    }, {
+      "id": "479749bf-1621-4a45-8509-1bae87bd759f",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitBtn",
+      "targets": [
+        ["id=submitBtn", "id"],
+        ["name=submitBtn", "name"],
+        ["css=#submitBtn", "css:finder"],
+        ["xpath=//input[@id='submitBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='bookingsForm']/div/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83fe2af4-e7c2-4dcd-8573-3018e7db88b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.enquiry-section",
+      "targets": [
+        ["css=.enquiry-section", "css:finder"],
+        ["xpath=//main/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a68dab4-a385-47ab-a03a-7300747e0469",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=//section/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "fc121471-ee01-44ab-8fc8-d081f8fa762e",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=//section/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95ca8fad-f6a5-4fd5-8d82-8a8e0224dda1",
+      "comment": "",
+      "command": "click",
+      "target": "id=errorMsg",
+      "targets": [
+        ["id=errorMsg", "id"],
+        ["css=#errorMsg", "css:finder"],
+        ["xpath=//div[@id='errorMsg']", "xpath:attributes"],
+        ["xpath=//section/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ddd557e-b914-45b9-9fe2-738ec5fe9125",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//div[@id='errorMsg']/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Login incorrect. Please try again\n')]", "xpath:innerText"]
+      ],
+      "value": "Login incorrect. Please try again"
+    }]
+  }],
+  "suites": [{
+    "id": "b39151c0-c3b8-43aa-bec2-3b4ced0df233",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://ksrtc.in/"],
+  "plugins": []
+}

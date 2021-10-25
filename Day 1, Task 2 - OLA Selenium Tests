@@ -1,0 +1,1069 @@
+{
+  "id": "90336e23-fad9-4914-8b4a-95252298ae8d",
+  "version": "2.0",
+  "name": "OLA Corporate",
+  "url": "https://corporate.olacabs.com",
+  "tests": [{
+    "id": "d1add769-a802-423d-aac4-bd8b59fcfdd6",
+    "name": "Login - OLA",
+    "commands": [{
+      "id": "38eefbc8-ec03-47de-98aa-2f59a3ba76ee",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8db7255b-b6b3-4db6-9749-1a2544c5ee50",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de79e782-08b6-4dcb-830a-25c601c2592a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu > li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d22e98-e9a6-486f-849f-4c2d04dccf86",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.menu > li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d968ccbc-74b0-46e5-b5eb-68e0b82966ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu > li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2865e9ff-80f4-4270-8796-c4b5899fd962",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.stroke:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7c6efdf-2f7d-4e2f-9ab4-899d29fc99d1",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.ng-not-empty", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "somik@datta.com"
+    }, {
+      "id": "fc81a7e3-1b42-4413-8c83-336b6d40c7c8",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.stroke:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a57d970-9f78-409f-b442-a5028f26ffe6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.stroke:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Password"
+    }, {
+      "id": "7beecf69-f01c-4461-8ce9-b5c4c51c6e8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-prime",
+      "targets": [
+        ["css=.b-prime", "css:finder"],
+        ["xpath=//input[@value='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "870bf3b2-c275-4258-a780-9c18cf34fa13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pad",
+      "targets": [
+        ["css=.pad", "css:finder"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b363b0b4-adb8-470a-b914-9a5115dee27a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.info",
+      "targets": [
+        ["css=.info", "css:finder"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'Please tick the captcha')]", "xpath:innerText"]
+      ],
+      "value": "Please tick the captcha"
+    }]
+  }, {
+    "id": "5034b9ef-b021-4edf-871f-1c98aa978543",
+    "name": "Sign Up - OLA",
+    "commands": [{
+      "id": "7fabb907-a2bc-4828-b4ab-d3aa4d6b5897",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fcb3e10-5c2e-4538-b695-4b00bbfda861",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00faad10-2c8c-429f-b4eb-b6f343da6513",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu > li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10bcb95e-c589-437b-a17d-c4ae086818f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Up Now",
+      "targets": [
+        ["linkText=Sign Up Now", "linkText"],
+        ["css=.textYellow", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Up Now')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"location.href = '/#signup'\"]", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div[2]/small/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[13]", "xpath:href"],
+        ["xpath=//div[2]/small/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Up Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c2840bf-0d0a-461c-815f-8eeaa0885fa1",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form-group > .ae-4", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c3dc265-dd95-457b-a200-6fe4f943a61f",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.ng-not-empty", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "somik@datta.com"
+    }, {
+      "id": "b8ca0601-33d1-46ef-a9e8-d9131b82dc68",
+      "comment": "",
+      "command": "type",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=company", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "My Travel Buddy"
+    }, {
+      "id": "fd944626-ddf5-43e0-b297-ad65837376ae",
+      "comment": "",
+      "command": "select",
+      "target": "id=country",
+      "targets": [],
+      "value": "label=INDIA"
+    }, {
+      "id": "2bb7e021-8a07-4047-b19d-968561be95bd",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "0987654321"
+    }, {
+      "id": "a1ea92e2-3868-41b8-ae29-5a1db6937e4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=department",
+      "targets": [
+        ["id=department", "id"],
+        ["name=department", "name"],
+        ["css=.cont-50:nth-child(1) > #department", "css:finder"],
+        ["xpath=//select[@id='department']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[3]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f6a1502-9f55-4f6b-beb0-5d4ca8a7e7ec",
+      "comment": "",
+      "command": "select",
+      "target": "id=department",
+      "targets": [],
+      "value": "label=Admin"
+    }, {
+      "id": "b910b710-03f1-4297-b799-4c439070d0b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=employees",
+      "targets": [
+        ["id=employees", "id"],
+        ["name=employees", "name"],
+        ["css=.cont-50:nth-child(2) > #employees", "css:finder"],
+        ["xpath=//select[@id='employees']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[3]/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cdb43d0-6efe-4496-ac44-a91e1f57aaaa",
+      "comment": "",
+      "command": "select",
+      "target": "id=employees",
+      "targets": [],
+      "value": "label=Less than 50"
+    }, {
+      "id": "7ea39469-64ba-4e20-93a5-d2ff5c7883a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4e8cfb6-0c34-4063-a8ba-5f8cd5ea13f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "9876543210"
+    }, {
+      "id": "cb417427-1dc3-4523-85d7-9a5e99be6758",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupForm",
+      "targets": [
+        ["id=signupForm", "id"],
+        ["name=signupForm", "name"],
+        ["css=#signupForm", "css:finder"],
+        ["xpath=//form[@id='signupForm']", "xpath:attributes"],
+        ["xpath=//section[@id='signup']/div/div/div/div/ul/li[2]/div/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3db081c8-b07a-47cf-b4c5-10c6aa88d83f",
+      "comment": "",
+      "command": "click",
+      "target": "name=acceptTC",
+      "targets": [
+        ["name=acceptTC", "name"],
+        ["css=.exist-cust > .ng-pristine", "css:finder"],
+        ["xpath=//input[@name='acceptTC']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[7]/small/input", "xpath:idRelative"],
+        ["xpath=//small/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d99cce5d-15f6-41d8-b4ab-1a7c3a60a224",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["name=country", "name"],
+        ["css=.ng-scope > .contact-form > div > #country", "css:finder"],
+        ["xpath=//select[@id='country']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/select", "xpath:position"]
+      ],
+      "value": "string:INDIA"
+    }, {
+      "id": "706e0074-07be-4abd-8705-cef7e3e7a65f",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ddc6680-05a2-48df-b035-1690fe49a825",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6b3e7fa-6485-43e7-a3b3-591a22ca9309",
+      "comment": "",
+      "command": "click",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84bd18bf-4b43-4b4f-974a-0c9a6fec7a47",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72275e7d-ccc9-4177-bfa6-a4943476f04d",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "id=mobile",
+      "targets": [
+        ["id=mobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#mobile", "css:finder"],
+        ["xpath=//input[@id='mobile']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "9876543210"
+    }, {
+      "id": "17c72d2a-4da7-4ff6-b2de-3aa14157056b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope > .labelcase",
+      "targets": [
+        ["css=.ng-scope > .labelcase", "css:finder"],
+        ["xpath=//form[@id='signupForm']/div[5]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mobile Number')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff73848c-2bde-4eda-b7c5-4afc421522e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=continue1",
+      "targets": [
+        ["id=continue1", "id"],
+        ["css=#continue1", "css:finder"],
+        ["xpath=//button[@id='continue1']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28c21366-8fbe-47f8-8a88-c41aff3b4aa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fix-5-12 .pad",
+      "targets": [
+        ["css=.fix-5-12 .pad", "css:finder"],
+        ["xpath=//section[@id='signup']/div/div/div/div/ul/li[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e586f2ac-4e6b-4522-93b1-8d43f27bb199",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#signupForm > .info",
+      "targets": [
+        ["css=#signupForm > .info", "css:finder"],
+        ["xpath=//form[@id='signupForm']/small", "xpath:idRelative"],
+        ["xpath=//form/small", "xpath:position"],
+        ["xpath=//small[contains(.,'Please correct the highlighted fields')]", "xpath:innerText"]
+      ],
+      "value": "Please correct the highlighted fields"
+    }, {
+      "id": "211b11ce-1b99-4213-aaae-53453d0e4be5",
+      "comment": "",
+      "command": "click",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["name=country", "name"],
+        ["css=.ng-scope > .contact-form > div > #country", "css:finder"],
+        ["xpath=//select[@id='country']", "xpath:attributes"],
+        ["xpath=//form[@id='signupForm']/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "059986ee-ed7b-4ebd-9ce8-9a2950dd1ccc",
+    "name": "API Docs Status Code Check - OLA",
+    "commands": [{
+      "id": "fb758906-d61f-4080-a019-a4ed3fc803e4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "084fc3fb-8bf5-4cff-a52e-923286883ba8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3e1ff76-dfbb-430a-97b9-ba823aab476a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(6) > .link-button",
+      "targets": [
+        ["css=li:nth-child(6) > .link-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Docs')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/docs/overview')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bed6d7fe-123e-45c7-9ae4-b2707b577974",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(6) > .link-button",
+      "targets": [
+        ["css=li:nth-child(6) > .link-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Docs')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/docs/overview')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4729648-3932-4dde-bbd6-aefe2c689b43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Authorization Token",
+      "targets": [
+        ["linkText=Authorization Token", "linkText"],
+        ["css=.collapse > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Authorization Token')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/docs/access-token')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Authorization Token')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bd4579d-d5ea-4447-82f0-d87cc5a46913",
+      "comment": "",
+      "command": "click",
+      "target": "css=pre:nth-child(9)",
+      "targets": [
+        ["css=pre:nth-child(9)", "css:finder"],
+        ["xpath=//pre", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc0f2bbf-9c77-478d-a6a8-87c98670a97d",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(6)",
+      "targets": [
+        ["css=p:nth-child(6)", "css:finder"],
+        ["xpath=//div[3]/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ac1352a-b0ff-4f6f-8fee-d9ea94167467",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=b",
+      "targets": [
+        ["css=b", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'429 status code')]", "xpath:innerText"]
+      ],
+      "value": "404 status code"
+    }]
+  }, {
+    "id": "1b4a45ce-9430-4ced-8ec9-5e153fb5a743",
+    "name": "Contact Us - OLA",
+    "commands": [{
+      "id": "54661605-5a27-4c51-992f-7a36a37fd938",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "027e39d9-0604-4bb9-ae74-228d1abad948",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "446d7973-51fd-46c0-9051-a6ace78879d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-contact",
+      "targets": [
+        ["id=link-contact", "id"],
+        ["css=#link-contact", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//a[@id='link-contact']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#contact')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f79de64-1684-451d-bf2f-609e8f2f114d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email43",
+      "targets": [
+        ["id=email43", "id"],
+        ["css=div:nth-child(2) > .cont-50:nth-child(1) > #email43", "css:finder"],
+        ["xpath=//input[@id='email43']", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[9]/div/div/div/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0986ce77-3cbc-4b69-ad3f-8f00b4f602cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=email43",
+      "targets": [
+        ["id=email43", "id"],
+        ["css=div:nth-child(2) > .cont-50:nth-child(1) > #email43", "css:finder"],
+        ["xpath=//input[@id='email43']", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//section[9]/div/div/div/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "Sammy"
+    }, {
+      "id": "6d117058-b629-4aeb-81df-2c23bfb3881a",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.cont-50:nth-child(2) > #email43", "css:finder"],
+        ["xpath=(//input[@id='email43'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section[9]/div/div/div/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54369922-955a-4cac-815d-2cbe1e971808",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.cont-50:nth-child(2) > #email43", "css:finder"],
+        ["xpath=(//input[@id='email43'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section[9]/div/div/div/div/div/form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "sammy@mail.com"
+    }, {
+      "id": "23095722-e52b-4eaa-b944-e0f268d1bb86",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > #country",
+      "targets": [
+        ["css=div:nth-child(3) > #country", "css:finder"],
+        ["xpath=(//select[@id='country'])[3]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[2]/select", "xpath:idRelative"],
+        ["xpath=//form/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0fe5d62-1b76-4cce-bb71-92a850ef8d2d",
+      "comment": "",
+      "command": "select",
+      "target": "css=div:nth-child(3) > #country",
+      "targets": [],
+      "value": "label=INDIA"
+    }, {
+      "id": "dee23c0d-206c-4c3c-98f6-7cdab7c54d8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cont-50:nth-child(2) #dialing_code",
+      "targets": [
+        ["css=.cont-50:nth-child(2) #dialing_code", "css:finder"],
+        ["xpath=(//input[@id='dialing_code'])[3]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04bfe967-4f4d-4542-94d6-807b165b6374",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=.cont-50:nth-child(2) #dialing_code",
+      "targets": [
+        ["css=.cont-50:nth-child(2) #dialing_code", "css:finder"],
+        ["xpath=(//input[@id='dialing_code'])[3]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "+91"
+    }, {
+      "id": "84450694-9971-49d1-a3fa-ec78c72a95c2",
+      "comment": "",
+      "command": "click",
+      "target": "name=corporate_name",
+      "targets": [
+        ["name=corporate_name", "name"],
+        ["css=div:nth-child(4) > .cont-50 > #email43", "css:finder"],
+        ["xpath=(//input[@id='email43'])[3]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c776289b-ef7a-41d3-9dcf-00da55cd9e7b",
+      "comment": "",
+      "command": "type",
+      "target": "name=corporate_name",
+      "targets": [
+        ["name=corporate_name", "name"],
+        ["css=div:nth-child(4) > .cont-50 > #email43", "css:finder"],
+        ["xpath=(//input[@id='email43'])[3]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Travel Buddy"
+    }, {
+      "id": "c70dee35-84d6-4073-85c6-e149664cffa9",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone_no",
+      "targets": [
+        ["name=phone_no", "name"],
+        ["css=.cont-80 > #email43", "css:finder"],
+        ["xpath=(//input[@id='email43'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc917bb7-efa5-44b3-9e93-64123a4d3f6e",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone_no",
+      "targets": [
+        ["name=phone_no", "name"],
+        ["css=.cont-80 > #email43", "css:finder"],
+        ["xpath=(//input[@id='email43'])[4]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "9876543210"
+    }, {
+      "id": "2ae10786-36c8-4211-b183-29ce653d1ed3",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(4) > .cont-50:nth-child(2) > .labelcase",
+      "targets": [
+        ["css=div:nth-child(4) > .cont-50:nth-child(2) > .labelcase", "css:finder"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Phone Number')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15f1a588-2b9b-4f7b-92af-49f851959ec8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cont-50:nth-child(3) > #department",
+      "targets": [
+        ["css=.cont-50:nth-child(3) > #department", "css:finder"],
+        ["xpath=(//select[@id='department'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c8228c-eaed-415d-be07-7b556a7206e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cont-50:nth-child(3) > #department",
+      "targets": [
+        ["css=.cont-50:nth-child(3) > #department", "css:finder"],
+        ["xpath=(//select[@id='department'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1daf74af-edc3-4223-ad7a-04ec4501d1e1",
+      "comment": "",
+      "command": "verifySelectedLabel",
+      "target": "css=.cont-50:nth-child(3) > #department",
+      "targets": [],
+      "value": "Select one"
+    }, {
+      "id": "3eb2cf86-b7b7-46b6-aae6-5afe2bb134ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cont-50:nth-child(3) > #department",
+      "targets": [
+        ["css=.cont-50:nth-child(3) > #department", "css:finder"],
+        ["xpath=(//select[@id='department'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e147dd7-0c5d-4765-9fd1-ae63a94d0bf8",
+      "comment": "",
+      "command": "select",
+      "target": "css=.cont-50:nth-child(3) > #department",
+      "targets": [],
+      "value": "label=Finance"
+    }, {
+      "id": "036fb661-e93d-4d99-80fa-dd43812cc3d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cont-50:nth-child(4) > #employees",
+      "targets": [
+        ["css=.cont-50:nth-child(4) > #employees", "css:finder"],
+        ["xpath=(//select[@id='employees'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/div[3]/div[4]/select", "xpath:idRelative"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "536d74f3-a670-48bc-a791-c2737ac8a71b",
+      "comment": "",
+      "command": "select",
+      "target": "css=.cont-50:nth-child(4) > #employees",
+      "targets": [],
+      "value": "label=More than 2,500"
+    }, {
+      "id": "046046ca-1a3c-459f-8361-d0f6025d729d",
+      "comment": "",
+      "command": "click",
+      "target": "name=comments",
+      "targets": [
+        ["name=comments", "name"],
+        ["css=.form-inp", "css:finder"],
+        ["xpath=//textarea[@name='comments']", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//form/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8cba880-e468-41d5-8c15-ec14abdef89d",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "name=comments",
+      "targets": [
+        ["name=comments", "name"],
+        ["css=.form-inp", "css:finder"],
+        ["xpath=//textarea[@name='comments']", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//form/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3dfe218-a4f4-4e8c-89a4-443eb46a0468",
+      "comment": "",
+      "command": "click",
+      "target": "name=comments",
+      "targets": [
+        ["name=comments", "name"],
+        ["css=.form-inp", "css:finder"],
+        ["xpath=//textarea[@name='comments']", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//form/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddea4aa8-66ee-48d5-8f59-af24bd73ec79",
+      "comment": "",
+      "command": "type",
+      "target": "name=comments",
+      "targets": [
+        ["name=comments", "name"],
+        ["css=.form-inp", "css:finder"],
+        ["xpath=//textarea[@name='comments']", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//form/textarea", "xpath:position"]
+      ],
+      "value": "I'd like to say something."
+    }, {
+      "id": "06ab79b9-aaa9-47a9-99d4-0438036d9273",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(9)",
+      "targets": [
+        ["css=.button:nth-child(9)", "css:finder"],
+        ["xpath=(//input[@name='submit'])[2]", "xpath:attributes"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//section[9]/div/div/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c4476e7-abda-4ad8-a115-d301f67bbab7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fix-7-12 > .pad",
+      "targets": [
+        ["css=.fix-7-12 > .pad", "css:finder"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//section[9]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d1a2015-6196-4136-b758-41b15ed8b807",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.info:nth-child(8)",
+      "targets": [
+        ["css=.info:nth-child(8)", "css:finder"],
+        ["xpath=//section[@id='contact']/div/div/div/div/div/form/small[2]", "xpath:idRelative"],
+        ["xpath=//section[9]/div/div/div/div/div/form/small[2]", "xpath:position"],
+        ["xpath=//small[contains(.,'Please correct the highlighted fields')]", "xpath:innerText"]
+      ],
+      "value": "Please correct the highlighted fields"
+    }]
+  }, {
+    "id": "13f38644-0f45-48a0-9831-2a4c638854fd",
+    "name": "How it works - OLA",
+    "commands": [{
+      "id": "7c3cbb2e-f9a2-4c9d-8c65-7865159d0e7e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce8a6629-bbad-42f4-a6d4-3a44a2b79113",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a70b9ea-d0bf-4e6d-b6a2-ebbbafc972ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-how",
+      "targets": [
+        ["id=link-how", "id"],
+        ["css=#link-how", "css:finder"],
+        ["xpath=//a[contains(text(),'How it works')]", "xpath:link"],
+        ["xpath=//a[@id='link-how']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#how')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a295f3e-eb3f-4157-995e-f5bd641f5cf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-3-12 > .ae-4",
+      "targets": [
+        ["css=.col-3-12 > .ae-4", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'ADD EMPLOYEES VIA DASHBOARD')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1249ae7-c23f-4c5b-b4ca-336c23a42ab1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-3-12 > .ae-4",
+      "targets": [
+        ["css=.col-3-12 > .ae-4", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'ADD EMPLOYEES VIA DASHBOARD')]", "xpath:innerText"]
+      ],
+      "value": "ADD EMPLOYEES VIA DASHBOARD"
+    }, {
+      "id": "4d6d8e5a-5eda-4f5f-ba51-627a666df1d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-3-12:nth-child(2)",
+      "targets": [
+        ["css=.col-3-12:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df195d38-e228-4605-88ab-05b517767756",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-3-12:nth-child(3)",
+      "targets": [
+        ["css=.col-3-12:nth-child(3)", "css:finder"],
+        ["xpath=//div/div/div[2]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3cf1248-40e4-4bda-9a83-ef6860d6776d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-3-12:nth-child(4) > .uppercase",
+      "targets": [
+        ["css=.col-3-12:nth-child(4) > .uppercase", "css:finder"],
+        ["xpath=//li[4]/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c5fd08b-9375-46b7-80f3-c513cba7d736",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ae-5:nth-child(3) > .small:nth-child(1)",
+      "targets": [
+        ["css=.ae-5:nth-child(3) > .small:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Sign up to access your Ola Corporate Dashboard and Invite your employees.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c2a5455-6d45-42c5-b8a2-09ec49d9361d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.ae-5:nth-child(3) > .small:nth-child(1)",
+      "targets": [
+        ["css=.ae-5:nth-child(3) > .small:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Sign up to access your Ola Corporate Dashboard and Invite your employees.')]", "xpath:innerText"]
+      ],
+      "value": "Sign up to access your Ola Corporate Dashboard and Invite your employees."
+    }, {
+      "id": "a921b394-06ab-4e89-8821-3cdeda8ead97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-3-12:nth-child(2)",
+      "targets": [
+        ["css=.col-3-12:nth-child(2)", "css:finder"],
+        ["xpath=//div/div/div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbaa86af-1807-4c69-8e6a-f572ba41c0cc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ae-6 > .small:nth-child(1)",
+      "targets": [
+        ["css=.ae-6 > .small:nth-child(1)", "css:finder"],
+        ["xpath=//li[2]/div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your employees book their rides with the toggle of a button through their Ola app.')]", "xpath:innerText"]
+      ],
+      "value": "Your employees book their rides with the toggle of a button through their Ola app."
+    }]
+  }],
+  "suites": [{
+    "id": "0cdeb3d3-6100-4efd-a3ef-5b892cb06b09",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d1add769-a802-423d-aac4-bd8b59fcfdd6"]
+  }],
+  "urls": ["https://corporate.olacabs.com/"],
+  "plugins": []
+}
